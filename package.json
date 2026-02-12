@@ -1,0 +1,7 @@
+{
+  "name": "docolab-kinde-workflows",
+  "private": true,
+  "dependencies": {
+    "@kinde/infrastructure": "latest"
+  }
+}
