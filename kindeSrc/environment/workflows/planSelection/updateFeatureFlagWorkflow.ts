@@ -15,6 +15,8 @@ export const workflowSettings: WorkflowSettings = {
     action: "stop",
   },
   bindings: {
+    "kinde.fetch": {},
+    console: {},
     url: {},
   },
 };
@@ -33,8 +35,8 @@ export default async function Workflow(event: onPlanSelection) {
 
     // Update the docoplant-json-flag feature flag for this organization
     const flagValue = JSON.stringify({
-      v: 1,
-      plugin_enabled: true,
+      "v": 1,
+      "plugin_enabled": true,
     });
 
     await kindeAPI.patch({
