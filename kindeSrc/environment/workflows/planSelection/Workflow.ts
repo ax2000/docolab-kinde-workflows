@@ -15,8 +15,7 @@ export const workflowSettings: WorkflowSettings = {
     action: "stop",
   },
   bindings: {
-    "kinde.fetch": {},
-    "console": {}
+    "kinde.fetch": {}
   },
 };
 
