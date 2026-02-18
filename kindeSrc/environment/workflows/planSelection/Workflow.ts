@@ -16,7 +16,7 @@ export const workflowSettings: WorkflowSettings = {
   },
   bindings: {
     "kinde.fetch": {},
-    console: {}
+    "console": {}
   },
 };
 
