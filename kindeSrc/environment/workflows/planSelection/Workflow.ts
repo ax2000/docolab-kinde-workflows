@@ -13,6 +13,11 @@ export const workflowSettings: WorkflowSettings = {
   trigger: WorkflowTrigger.PlanSelection,
   failurePolicy: {
     action: "stop",
+  },
+  bindings: {
+    "kinde.fetch": {},
+    "kinde.env": {},
+    "url": {},
   }
 };
 
