@@ -13,10 +13,7 @@ export const workflowSettings: WorkflowSettings = {
   trigger: WorkflowTrigger.PlanSelection,
   failurePolicy: {
     action: "stop",
-  },
-  bindings: {
-    "kinde.fetch": {}
-  },
+  }
 };
 
 export default async function Workflow(event: onPlanSelection) {
